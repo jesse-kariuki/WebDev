@@ -1,0 +1,138 @@
+body{
+    margin-left:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ececec;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    
+
+}
+
+.nav-bar .logo img{
+    height: 40px;
+}
+
+.nav-bar .nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar .nav-links a{
+    text-decoration: none;
+    color:#333;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-bar .nav-links a:hover{
+    color:#0abab5
+}
+
+.nav-bar .auth {
+    display: flex;
+    gap:10px;
+}
+
+.nav-bar .auth a{
+    text-decoration: none;
+    font-weight: 500;
+    padding:8px 16px;
+}
+
+.signup{
+    color:#007e85
+
+}
+.login{
+    background-color: #007e85;
+    color: white;
+    border: none;
+    border-radius:  25px;
+}
+.login:hover{
+    background-color: #0a9a95;
+}
+.intro{
+    margin-top:200px;
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px
+}
+.healthcare{
+    color: #007e85;
+    font-weight:500
+}
+.bright_healthy{
+    color:#6eab36;
+}
+
+.legend p{
+    flex:1;
+}
+
+.find_a_doctor{
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding:5px
+    
+}
+.find_doctor{
+    font-size:20px;
+    margin-left:15px;
+    margin-top: 5px;
+   
+}
+.name_specialty_search{
+    display: flex;
+    
+    margin-left: 15px;
+    margin-bottom:15px;
+
+}
+
+.name{
+   border: 1px solid #007e85;
+   width: 220px ;
+   height:45px;
+   border-radius: 8px;
+   
+   
+}
+.name p{
+    margin-left: 16px;
+    margin-top: 10px;
+    
+    
+    
+}
+.speciality{
+    border: 1px solid #007e85;
+    width: 220px ;
+    height: 45px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.speciality p{
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.Available{
+    margin-left:50px;
+    margin-right:25px;
+    display: flex;
+    align-items: center;
+}
+
+.toggle_availability{
+    margin-left: 10px;
+}
+
