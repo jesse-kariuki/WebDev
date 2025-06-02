@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+      <main>
         <nav class="nav-bar">
             <div class="logo">
                 <img src="" alt="Logo"/>
@@ -43,30 +44,317 @@
             
         </div>
 
-        <div class="find_a_doctor">
+        <div class="doctor-search">
             <strong><p class="find_doctor">Find A Doctor</p></strong>
-            <div class="name_specialty_search">
-            <div class="name">
-                <p>Name</p>
-            </div>
-            <div class="speciality">
-                <p>Speciality</p>
-            </div>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Speciality">
             <div class="Available">
-                <label for="toggle_availability" class="checkbox_label">Available Now</label>
-                <input type="checkbox" id="toggle_availability">
+                <label for="available">Available</label>
+                <label class="switch">
+                    <input type="checkbox" id="available">
+                    <span class="slider"></span>
+                </label>
                 
 
             </div>
-            <label>
-                <input type="checkbox">
-                <span class="slider"></span>
-            </label>
-            <div class="search">
-                <p></p><button>Search</button>
+                <p></p><button class="search">Search</button>
+            
+        </div>
+        
+
+        <div class="results">Our results in numbers</div>
+        <div class="stats-container">
+            <div class="stat">
+              <div class="number">99<span class="unit">%</span></div>
+              <div class="label">Customer satisfaction</div>
             </div>
-        </div>
-        </div>
+            <div class="stat">
+              <div class="number">15<span class="unit">k</span></div>
+              <div class="label">Online patients</div>
+            </div>
+            <div class="stat">
+              <div class="number">12<span class="unit">k</span></div>
+              <div class="label">Patients recovered</div>
+            </div>
+            <div class="stat">
+              <div class="number">240<span class="unit">%</span></div>
+              <div class="label">Company growth</div>
+            </div>
+          </div>
+
+          <div class="services-offered">
+                Services we Provide
+          </div>
+          <div class="services-desc">
+            Our comprehensive healthcare services combine advanced medical technology with personalized patient care to deliver exceptional treatment outcomes across multiple specialties- <br>
+            all from the comfort of your home
+          </div>
+
+          <div class="services-container">
+            
+              
+              <div class="team-cards">
+    
+                <div class="service-card">
+                  <img src="Teeth.png"/>
+                  <div class="service-name">Dental treatment</div>
+                  
+                  <div class="about">
+                    Comprehensive oral healthcare including preventive cleanings, restorative procedures, cosmetic dentistry, and advanced implant solutions. 
+                  </div>
+                  <div class="socials-row">
+                    <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+                  </div>
+                </div>
+              
+                <div class="service-card">
+                  <img src="Bone.png"/>
+                  <div class="service-name">Bones Treatment</div>
+                  
+                  <div class="about">
+                    Specialized orthopedic care for bone, joint, and musculoskeletal conditions. We provide innovative treatment options to restore mobility.
+                  </div>
+                  <div class="socials-row">
+                    <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+                  </div>
+                </div>
+    
+                <div class="service-card">
+                    <img src="Diagnosis.png"/>
+                    <div class="service-name">Diagnosis</div>
+                    
+                    <div class="about">
+                      Advanced diagnostic imaging using cutting-edge technology. Our expert medical team provides accurate diagnoses and detailed treatment planning.                    </div>
+                    <div class="socials-row">
+                      <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+                    </div>
+                </div>
+    
+                <div class="service-card">
+                    <img src="Eye.png"/>
+                    <div class="service-name">Eye Care</div>
+                    
+                    <div class="about">
+                        Highly skilled neurosurgeon expert in complex brain and spinal procedures. Subspecialty training in minimally invasive techniques treating brain tumors to spinal disorders.</div>
+                    <div class="socials-row">
+                      <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+                    </div>
+                </div>
+    
+                <div class="service-card">
+                    <img src="Cardiology.png"/>
+                    <div class="service-name">Cardiology</div>
+                    
+                    <div class="about">
+                        Interventional cardiologist preventing treating heart disease through innovative procedures and lifestyle medicine. Expertise includes cardiac catheterization and heart failure management.</div>
+                    <div class="socials-row">
+                      <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+                    </div>
+                </div>
+    
+                <div class="service-card">
+                    <img src="Surgery.png"/>
+                    <div class="service-name">Surgery</div>
+                    
+                    <div class="about">
+                        Medical oncologist specializing personalized cancer treatment and precision medicine. Comprehensive approach combining latest therapeutic advances with compassionate patient care. 
+                    </div>
+                    <div class="socials-row">
+                      <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+                    </div>
+                </div>
+          </div>
+          
+
+          <div class="services-provided">
+            <h2 class="services-offered">Meet our team</h2>
+            <div class="services-desc">
+              Our experienced board combines medical expertise with strategic leadership, guiding our organization's commitment to innovative healthcare delivery and exceptional patient outcomes across all specialties.
+            </div>
+          </div>
+          
+          
+          <div class="team-cards">
+
+            <div class="employee-card">
+              <img src=""/>
+              <div class="employee-name">John Carter</div>
+              <div class="role">CEO & Co-Founder</div>
+              <div class="about">
+                Visionary leader with fifteen years healthcare innovation experience. Founded organization revolutionizing patient care through cutting-edge technology and compassionate service. 
+              </div>
+              <div class="socials-row">
+                <div class="socials-container"><div class="socials"></div></div>
+                <div class="socials-container"><div class="socials"></div></div>
+                <div class="socials-container"><div class="socials"></div></div>
+                <div class="socials-container"><div class="socials"></div></div>
+              </div>
+            </div>
+          
+            <div class="employee-card">
+              <img src=""/>
+              <div class="employee-name">Sophie Moore</div>
+              <div class="role">DENTAL SPECIALIST</div>
+              <div class="about">
+                Exceptional dental specialist combining technical precision with gentle patient approach. Advanced training in restorative cosmetic dentistry and implantology.
+              </div>
+              <div class="socials-row">
+                <div class="socials-container"><div class="socials"></div></div>
+                <div class="socials-container"><div class="socials"></div></div>
+                <div class="socials-container"><div class="socials"></div></div>
+                <div class="socials-container"><div class="socials"></div></div>
+              </div>
+            </div>
+
+            <div class="employee-card">
+                <img src=""/>
+                <div class="employee-name">Matt Cannon</div>
+                <div class="role">Orthopedic</div>
+                <div class="about">
+                    Board-certified orthopedic surgeon specializing sports medicine and joint reconstruction. Extensive experience treating athletes using surgical and non-surgical approaches.
+                </div>
+                <div class="socials-row">
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                </div>
+            </div>
+
+            <div class="employee-card">
+                <img src=""/>
+                <div class="employee-name">Andy Smith</div>
+                <div class="role">Neurosurgeon</div>
+                <div class="about">
+                    Highly skilled neurosurgeon expert in complex brain and spinal procedures. Subspecialty training in minimally invasive techniques treating brain tumors to spinal disorders.</div>
+                <div class="socials-row">
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                </div>
+            </div>
+
+            <div class="employee-card">
+                <img src=""/>
+                <div class="employee-name">Lily Woods</div>
+                <div class="role">CARDIOLOGIST</div>
+                <div class="about">
+                    Interventional cardiologist preventing treating heart disease through innovative procedures and lifestyle medicine. Expertise includes cardiac catheterization and heart failure management.</div>
+                <div class="socials-row">
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                </div>
+            </div>
+
+            <div class="employee-card">
+                <img src=""/>
+                <div class="employee-name">Patrick Meyer</div>
+                <div class="role">ONCOLOGIST</div>
+                <div class="about">
+                    Medical oncologist specializing personalized cancer treatment and precision medicine. Comprehensive approach combining latest therapeutic advances with compassionate patient care. 
+                </div>
+                <div class="socials-row">
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                  <div class="socials-container"><div class="socials"></div></div>
+                </div>
+            </div>
+
+            <div class="services-provided">
+              <h2 class="services-offered">Testimonials</h2>
+              <div class="services-desc">
+                Hear directly from the patients whose lives we've touched. These authentic testimonials reflect our commitment to exceptional care, compassionate service, and outstanding medical outcomes across all our specialties
+              </div>
+            </div>
+
+
+            <div class="testimonial-container">
+              <div class="testimonial-card">
+                <img class="profile-pic" src="https://placehold.co/80x80" alt="John Carter">
+                <div class="testimonial-title">“An amazing service”</div>
+                <div class="testimonial-text">"Dr. Carter and his team completely transformed my experience with healthcare. After years of struggling with chronic pain, their comprehensive approach finally gave me my life back. The entire staff treated me like family, and the results exceeded all my expectations."</div>
+                <div class="testimonial-name">John Carter</div>
+                <div class="testimonial-role">CEO at Google</div>
+              </div>
+            
+              <div class="testimonial-card">
+                <img class="profile-pic" src="https://placehold.co/80x80" alt="Sophie Moore">
+                <div class="testimonial-title">“One of a kind service”</div>
+                <div class="testimonial-text">"I was terrified of dental procedures until I met Dr. Moore. Her gentle approach and clear explanations made me feel completely at ease. The cosmetic work she did has given me the confidence to smile again. Truly life-changing!"</div>
+                <div class="testimonial-name">Sophie Moore</div>
+                <div class="testimonial-role">MD at Facebook</div>
+              </div>
+            
+              <div class="testimonial-card">
+                <img class="profile-pic" src="https://placehold.co/80x80" alt="Andy Smith">
+                <div class="testimonial-title">“The best service”</div>
+                <div class="testimonial-text">"As a professional athlete, I needed the best orthopedic care available. Dr. Cannon's expertise got me back on the field faster than I thought possible. His innovative treatment approach and dedication to my recovery were exceptional."</div>
+                <div class="testimonial-name">Andy Smith</div>
+                <div class="testimonial-role">CEO Dot Austere</div>
+              </div>
+            </div>
+            <div class="services-offered">Trusted in 26+ countries and over 250 hospitals around the world</div>
+            <div class="logos">
+              <img src="Children's logo.png" />
+              <img src="Apollo.png" />
+              <img src="NHS.png"/>
+              <img src="JohnHopkins.png"/>
+              
+            </div>
+          </main>
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Our Team</a></li>
+                      <li><a href="#">Mission & Values</a></li>
+                      <li><a href="#">Careers</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                      <li><a href="#">Dental Care</a></li>
+                      <li><a href="#">Orthopedic Surgery</a></li>
+                      <li><a href="#">Neurosurgery</a></li>
+                      <li><a href="#">Cardiology</a></li>
+                      <li><a href="#">Oncology</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Patient Resources</h4>
+                    <ul>
+                      <li><a href="#">Schedule Appointment</a></li>
+                      <li><a href="#">Patient Portal</a></li>
+                      <li><a href="#">Insurance & Billing</a></li>
+                      <li><a href="#">Forms & Documents</a></li>
+                      <li><a href="#">FAQ</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                      <p>📞 (555) 123-4567</p>
+                      <p>📧 info@healthcenter.com</p>
+                      <p>📍 123 Medical Drive<br>City, State 12345</p>
+                    </div>
+                    <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
         <script src="script.js"></script>
     </body>
     
