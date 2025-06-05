@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Services</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="logo">
+            <img src="Images/logo.png" alt="Logo"/>
+        </div>
+
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="blogs.html">Blogs</a>
+        </div>
+        <div class="auth">
+            
+            <a href="signup.html" class="signup">Sign Up</a>
+            <a href="login.html" class="login">Login</a>
+        </div>
+    </nav>
+
+ 
+  <section class="hero-section">
+    <div class="hero-overlay">
+      <div class="hero-content">
+
+        <div class="hero-text">
+          <h1>Your Health, <br> Our Mission</h1>
+          <p>Providing quality, personalized care to every patient, every time.</p>
+        </div>
+
+        
+        <form class="appointment-form">
+          <h3 class="appointment-h3">General Appointment</h3>
+          <input type="text" placeholder="Full Name *" required>
+          <input type="email" placeholder="Email address *" required>
+
+          <select required>
+            <option value="">Please Select</option>
+            <option>General Consultation</option>
+            <option>Cardiology</option>
+            <option>Dental</option>
+            <option>Dermatology</option>
+            <option>Eye</option>
+            <option>Neurology</option>
+            <option>Physiotherapy</option>
+            <option>Orthopedic</option>
+          </select>
+
+          <select required>
+            <option value="">8:00AM</option>
+            <option>10:00AM</option>
+            <option>2:00PM</option>
+            <option>4:00PM</option>
+          </select>
+
+          <button type="submit" class="btn btn-primary">Book Appointment</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FIND A DOCTOR SECTION -->
+  <section class="find-doctor">
+    <h2>Find A Doctor</h2>
+
+    <!-- Doctor Search Inputs -->
+    <div class="search-bar">
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Speciality">
+      <span>Available</span>
+
+      <!-- Toggle Switch -->
+      <label class="switch">
+        <input type="checkbox" id="available-toggle">
+        <span class="slider round"></span>
+      </label>
+
+      <button class="btn btn-primary">Search</button>
+    </div>
+  </section>
+
+  
+  <div class="services-offered">
+    Services we Provide
+  </div>
+
+  <div class="services-desc">
+    Our comprehensive healthcare services combine advanced medical technology with personalized patient care to deliver exceptional treatment outcomes across multiple specialties- <br>
+    all from the comfort of your home
+  </div>
+
+  <div class="services-container">
+    <div class="team-cards">
+
+      
+      <div class="service-card">
+        <img src="Container.png" alt="Dental Image"/>
+        <div class="service-name">Dental treatment</div>
+        <div class="about">
+          Comprehensive oral healthcare including preventive cleanings, restorative procedures, cosmetic dentistry, and advanced implant solutions. 
+        </div>
+        <div class="socials-row">
+          <span class="text-with-arrow"><a href="dental.html">Learn More<span class="arrow">→</span></a></span>
+        </div>
+      </div>
+
+      
+      <div class="service-card">
+        <img src="boneTreatment.png" alt="BoneImage"/>
+        <div class="service-name">Bones Treatment</div>
+        <div class="about">
+          Specialized orthopedic care for bone, joint, and musculoskeletal conditions. We provide innovative treatment options to restore mobility.
+        </div>
+        <div class="socials-row">
+          <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+        </div>
+      </div>
+
+      
+      <div class="service-card">
+        <img src="Diagnosis.png" alt="DiagnosisImage"/>
+        <div class="service-name">Diagnosis</div>
+        <div class="about">
+          Advanced diagnostic imaging using cutting-edge technology. Our expert medical team provides accurate diagnoses and detailed treatment planning.
+        </div>
+        <div class="socials-row">
+          <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+        </div>
+      </div>
+
+     
+      <div class="service-card">
+        <img src="EyeCare.png" alt="EyeCareImage"/>
+        <div class="service-name">Eye Care</div>
+        <div class="about">
+          Expert ophthalmologists offering advanced diagnostics and treatments for vision and eye health, including laser and surgical options.
+        </div>
+        <div class="socials-row">
+          <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+        </div>
+      </div>
+
+      
+      <div class="service-card">
+        <img src="Cardiology.png" alt="Cardio Image"/>
+        <div class="service-name">Cardiology</div>
+        <div class="about">
+          Specialists in diagnosing and managing heart conditions with advanced imaging, procedures, and personalized treatment plans.
+        </div>
+        <div class="socials-row">
+          <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+        </div>
+      </div>
+
+      
+      <div class="service-card">
+        <img src="Surgery.png" alt="SurgeryImage"/>
+        <div class="service-name">Surgery</div>
+        <div class="about">
+          Skilled surgeons providing a range of procedures with a focus on precision, recovery, and compassionate patient support. 
+        </div>
+        <div class="socials-row">
+          <span class="text-with-arrow">Learn More <span class="arrow">→</span></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <section class="faq">
+    <h2>FAQ</h2>
+    <p class="faq-subtitle">Answers to common questions about our hospital services and patient care</p>
+
+   
+    <div class="faq-cards">
+      <div class="faq-card">
+        <h3>What insurance plans do you accept?</h3>
+        <p>We accept most major insurance providers. Contact our billing department for a full list.</p>
+      </div>
+      <div class="faq-card">
+        <h3>Can I schedule appointments online?</h3>
+        <p>Yes, you can book consultations through our website or mobile app.</p>
+      </div>
+      <div class="faq-card">
+        <h3>What are your visiting hours?</h3>
+        <p>Visiting hours are from 10 AM to 8 PM daily. ICU access is limited to designated times.</p>
+      </div>
+      <div class="faq-card">
+        <h3>Do you offer emergency services?</h3>
+        <p>Yes, our emergency department operates 24/7 for all urgent medical needs.</p>
+      </div>
+      <div class="faq-card">
+        <h3>Are specialists available for consultation?</h3>
+        <p>We have a wide range of specialists in cardiology, neurology, orthopedics, and more.</p>
+      </div>
+      <div class="faq-card">
+        <h3>How do I get my medical records?</h3>
+        <p>You can request your records through our patient portal or at the records department.</p>
+      </div> 
+    </div>
+  </section>
+
+  
+  <section class="newsletter">
+    <h2>Subscribe to our newsletter</h2>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+ 
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      
+      <div class="footer-logo">
+        <img src="medimeet2[1].png" width="150">
+        <p>Copyright © 2025 Healthcare Inc.<br>All Rights Reserved</p>
+      </div>
+
+    
+      <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+          <li>About</li>
+          <li>Contact us</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+
+     
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/profile.php?id=61577105189078"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="https://x.com/MediMeet82"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="https://www.instagram.com/medimeet_healthcare/"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+          <a href="https://www.youtube.com/channel/UChwuVOzhCqfK1HRlsbGOfTw"><i class="fab fa-youtube"></i> YouTube</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
